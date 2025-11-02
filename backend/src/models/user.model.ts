@@ -1,4 +1,3 @@
-import { match } from "assert"
 import mongoose, {Schema, model, Document} from "mongoose"
 
 export type UserRole = "admin" | "team" | "player"
